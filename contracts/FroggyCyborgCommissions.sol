@@ -15,12 +15,7 @@ contract FroggyCyborgComissions is Ownable, ERC721A {
 
     function teamMint(uint256 quantity, address receiver) public onlyOwner {
         _safeMint(receiver, quantity);
-    }
-
-    modifier callerIsUser() {
-        require(tx.origin == msg.sender, "The caller is another contract");
-        _;
-    }    
+    } 
 
     function setBaseURI(string memory _baseURI) public onlyOwner {
         BASE_URI = _baseURI;
