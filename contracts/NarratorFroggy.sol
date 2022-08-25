@@ -6,12 +6,12 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "erc721a/contracts/ERC721A.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
-contract FroggyCyborgComissions is Ownable, ERC721A {
+contract NarratorFroggy is Ownable, ERC721A {
 
     string public CONTRACT_URI;
     string public BASE_URI;
 
-    constructor() ERC721A("FroggyCyborgComissions", "FCC") {}
+    constructor() ERC721A("NarratorFroggy", "NF") {}
 
     function teamMint(uint256 quantity, address receiver) public onlyOwner {
         _safeMint(receiver, quantity);
