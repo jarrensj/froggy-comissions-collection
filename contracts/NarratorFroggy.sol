@@ -13,7 +13,7 @@ contract NarratorFroggy is Ownable, ERC721A {
 
     constructor() ERC721A("NarratorFroggy", "NF") {}
 
-    function teamMint(uint256 quantity, address receiver) public onlyOwner {
+    function mint(uint256 quantity, address receiver) public onlyOwner {
         _safeMint(receiver, quantity);
     } 
 
