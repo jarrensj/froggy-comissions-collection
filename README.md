@@ -28,4 +28,4 @@ setContractURI  ipfs://QmeQ4E3aTf2u7rW2VvEruSaCsjFRoyrYeAqWbs6u2oTY9T
 
 mint tokens to appriate receivers
 
-setBaseURI ipfs://QmNp3i2UAPpUxNwc6Y8CWi49yqSrMv7cKBvaSud3cDswUF/
+setBaseURI ipfs://QmUuCpn6owVeNnwe5ieQ4CNdk4aRx9DfWm3mRTzyfSLjU1/
