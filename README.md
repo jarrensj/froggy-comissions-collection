@@ -34,7 +34,7 @@ step 1. mint function
 
 step 2. setBaseURI (this sets base folder)
 
-ipfs://QmU5rggmmtQCgjrNyEUA2EoqoDAxByaS36G7cEWJnf8b2v/
+ipfs://QmVPKXvis72Zmh5NLPgWdeapuXYZaZVY6qY84NvHVvTTgE/
 
 ^ update this with new url 
 
